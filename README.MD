@@ -25,7 +25,7 @@ There will be two players in this game. At the start of the game Player 1 will b
 ![Image](/images/dice_pro3.png)
 
 
- ###Rules to Playe Pig Game:
+ ### Rules to Playe Pig Game:
 
 Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "Add and Exit":
 
