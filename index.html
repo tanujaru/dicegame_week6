@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <div >
+      <label for="fname"  style="color: white;font-size:x-large;">Please Enter First Plyer's Name:</label>
+
+      <input type="text" id="fname" name="fname"  style="font-size: x-large ; color: blue;">
+      <label for="Sname"style="color: white;font-size:x-large;">Please Enter Second Plyer's Name:</label>
+      <input type="text" id="sname" name="Sname"style="font-size: x-large ; color: blue;">
+      
+    </div>
+    <meta charset="UTF-8" />
+    
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>Dice Game</title>
+  </head>
+
+  <body>
+    
+  <div class="wrapper">
+      
+      <div class="player-0-panel active">
+        <div class="player-name" id="name-0">Player 1</div>
+        
+        <div class="player-score" id="score-0">43</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-0">11</div>
+        </div>
+      </div>
+
+      <div class="player-1-panel">
+        <div class="player-name" id="name-1">Player 2
+          
+        </div>
+        <div class="player-score" id="score-1">72</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-1">0</div>
+        </div>
+      </div>
+
+      <button class="btn-new">
+        <i class="ion-ios-plus-outline"></i>Start New Game
+        <H4>Hit Fast!!!.</H4>
+      </button>
+      
+      <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+      <button class="btn-hold">
+        <i class="ion-ios-download-outline"></i>Add Point And Pass.. 
+      </button>
+
+      <img src="/images/dice-5.png" alt="Dice" class="dice" />
+    </div>
+
+
+    <!--Instruction Button -->
+        <button id="modal-btn" class="button1">Instructions</button>
+
+    <div id="my-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Game Instructions</h2>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group-item">
+              The game has 2 players, playing in rounds.
+            </li>
+            <li class="list-group-item">
+              In each turn, a player rolls one dice as many times as he whishes.
+              Each result get added to his ROUND score.
+            </li>
+            <li class="list-group-item">
+              If the player rolls a 1 on  the dice, all his ROUND
+              score gets lost. After that, it's the next player's turn.
+            </li>
+            <li class="list-group-item">
+              The player can choose to 'Hold', which means that his ROUND score
+              gets added to his GLOBAL score. After that, it's the next player's
+              turn.
+            </li>
+            <li class="list-group-item">
+              A player looses his ENTIRE score when he rolls one in the dice. After that, it's the next player's turn.
+            </li>
+
+            <li class="list-group-item">
+              The first player to reach Winner score entered by user on GLOBAL
+              score wins the game.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   <script src="script.js"></script>
+  </body>
+</html>
