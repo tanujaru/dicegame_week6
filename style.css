@@ -45,7 +45,7 @@ body {
 }
 
 /**********************************************
-*** PLAYERS
+ PLAYERS stlying
 **********************************************/
 
 .player-name {
@@ -261,12 +261,4 @@ i {
   cursor: pointer;
 }
 
-@keyframes modalopen {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
