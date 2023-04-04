@@ -1,7 +1,12 @@
-## DICE GAME
+## DICE GAME                                                
 
 
-**About Game:** In this DIce game, User Interface (UI) contains user/player that can do three things, they are as follows<br>
+**About Game:** In this Dice game, User Interface (UI) contains user/player that can do three things, they are as follows<br>
+[Link to Portfolio Website](https://github.com/tanujaru/dicegame_week6/blob/main/index.html)
+
+
+
+
 
 
 There will be two players in this game. At the start of the game Player 1 will be the CurrentPlayer and Player 2 will be the in-active one.<br>
@@ -14,10 +19,10 @@ There will be two players in this game. At the start of the game Player 1 will b
 
 **Making of Game:** Being a game rendered by the web browser, it is built by the help of HTML, CSS (for the Front-end) and JavaScript (for the Back-end). The main logic of the game lies in the JS file whereas the appearance and the User Interface is rendered by HTML and CSS. In this project, there are basically four types of files:<br>
 
-## File (index.html)<br>
-## CSS File (style.css)<br>
-## JavaScript File (script.js file)<br>
-## Images (dice-*.png file)<br>
+### File (index.html)<br>
+### CSS File (style.css)<br>
+### JavaScript File (script.js file)<br>
+### Images (dice-*.png file)<br>
 
 
 ![Image](/images/dice_pro1.png)
@@ -25,7 +30,7 @@ There will be two players in this game. At the start of the game Player 1 will b
 ![Image](/images/dice_pro3.png)
 
 
- ### Rules to Playe Pig Game:
+ ### Rules to Play Dice Game:
 
 Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "Add and Exit":
 
