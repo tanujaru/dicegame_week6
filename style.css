@@ -15,7 +15,7 @@ body {
       rgba(36, 18, 230, 0.937),
       rgba(19, 185, 227, 0.4)
     ),
-    url(/images/back1.jpg);
+    url(images/back1.jpg);
   background-size: cover;
   background-position: center;
   font-family: Lato;
@@ -69,7 +69,7 @@ body {
 
 .active {
   background-color: blue;
-  background-image:url("/images/player2.jpg") ;
+  background-image:url("images/player2.jpg") ;
   font-size: 47px;
   size: 10pc;
  
